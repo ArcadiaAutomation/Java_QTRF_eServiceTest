@@ -2,6 +2,7 @@ package com.application;
 import java.io.IOException;
 
 import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.JUnitCore;
@@ -63,8 +64,8 @@ public class TestLogin {
 	}
 	
 	
-	@After
-	public void report()
+	@AfterClass
+	public static void report()
 	{
 		LogManager.closeLog();
 		LogManager.generateHTML();	
