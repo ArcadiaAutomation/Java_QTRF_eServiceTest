@@ -1,4 +1,4 @@
-package com.application;
+package com.test.application;
 import java.io.IOException;
 
 import org.junit.After;
@@ -30,7 +30,9 @@ public class TestLogin {
 		Environment.setValue("configSheet","InputData");
 		Environment.setValue("iterationSheet","Iteration");
 		Environment.setValue("appiumDir","C:\\Program Files (x86)\\Appium\\node_modules");
-		Environment.setValue("LogDir","D:\\ReportLog.html");
+//		Environment.setValue("LogDir","D:\\ReportLog.html");
+		Environment.setValue("LogDir","C:\\Program Files (x86)\\Jenkins\\workspace\\JTest-eService\\report\\ReportLog.html");
+		
 		
 		//TestCase.readTestCase(Environment.getValue("testCasePath"),Environment.getValue("testCaseSheet"));
 //		Config.readConfig(Environment.getValue("configPath"),Environment.getValue("configSheet"));

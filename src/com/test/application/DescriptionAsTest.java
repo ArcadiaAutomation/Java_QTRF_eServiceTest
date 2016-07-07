@@ -1,4 +1,4 @@
-package com.application;
+package com.test.application;
 
 import org.apache.tools.ant.taskdefs.optional.junit.JUnitResultFormatter;
 import org.junit.runner.Description;
