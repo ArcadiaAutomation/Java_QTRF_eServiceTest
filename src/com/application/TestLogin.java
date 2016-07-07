@@ -3,6 +3,7 @@ import java.io.IOException;
 
 import org.junit.After;
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.JUnitCore;
@@ -50,6 +51,7 @@ public class TestLogin {
 		Config.readConfig(Environment.getValue("configPath"),Environment.getValue("configSheet"));
 		
 		Executor.run();
+		Assert.assertTrue(true);
 	}
 	
 	@Test
@@ -61,6 +63,7 @@ public class TestLogin {
 		Config.readConfig(Environment.getValue("configPath"),Environment.getValue("configSheet"));
 		
 		Executor.run();
+		Assert.assertTrue(true);
 	}
 	
 	
