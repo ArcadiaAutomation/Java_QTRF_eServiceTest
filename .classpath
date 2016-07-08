@@ -3,9 +3,9 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_91"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/qtrf"/>
 	<classpathentry kind="lib" path="D:/ArcadiaAtlas/Java/Library/ant/1.9.7/ant-1.9.7.jar"/>
 	<classpathentry kind="lib" path="D:/ArcadiaAtlas/Java/Library/ant-junit/1.9.7/ant-junit-1.9.7.jar"/>
 	<classpathentry kind="lib" path="D:/ArcadiaAtlas/Java/Library/ant-launcher/1.9.7/ant-launcher-1.9.7.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/AppiumFramework"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

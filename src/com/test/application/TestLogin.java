@@ -12,10 +12,11 @@ import org.junit.runner.notification.Failure;
 
 import com.qtrf.core.Config;
 import com.qtrf.core.Environment;
-import com.qtrf.core.Executor;
+//import com.qtrf.core.Executor;
 import com.qtrf.core.Iteration;
 import com.qtrf.core.LogManager;
 import com.qtrf.core.TestCase;
+import com.qtrf.mobile.application.Executor;
 
 public class TestLogin {
 	
