@@ -14,10 +14,6 @@ import org.junit.runner.Request;
 import org.junit.runner.Result;
 import org.junit.runner.notification.RunListener;
 
-import com.qtrf.core.DriverManager;
-
-
-
 
 public class TestRunner 
 {		
